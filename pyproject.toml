@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "utf-tech-resto-test"
+version = "0.1.0"
+description = ""
+authors = ["Alexandr Zibinin <zibinin.chel@gmail.com>"]
+readme = "README.md"
+packages = [{include = "utf"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+black = "^25.1.0"
+django = "^5.1.6"
+python-dotenv = "^1.0.1"
+psycopg2-binary = "^2.9.10"
+djangorestframework = "^3.15.2"
+django-model-utils = "^5.0.0"
+drf-yasg = "^1.21.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
